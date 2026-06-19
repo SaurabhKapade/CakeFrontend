@@ -13,10 +13,9 @@ import EditBouquet from "./pages/Admin/EditBouquet";
 import AdminLogin from "./pages/Admin/AdminLogin";
 import Login from "./pages/Auth/Login";
 import Register from "./pages/Auth/Register";
-import ProtectedRoute from "./Components/ProtectedRoute";
-import UserProtectedRoute from "./Components/UserProtectedRoute";
 import MyOrders from "./pages/Orders/MyOrders";
-
+import ProtectedRoute from "./components/ProtectedRoute";
+import UserProtectedRoute from "./components/UserProtectedRoute";
 const theme = createTheme({
   palette: {
     primary: { main: "#831843" },
