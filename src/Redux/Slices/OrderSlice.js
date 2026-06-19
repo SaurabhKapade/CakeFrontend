@@ -23,6 +23,7 @@ export const fetchOrders = createAsyncThunk(
       const response = await axiosInstance.get("/api/orders");
       return response.data.data;
     } catch (error) {
+      console.log("Error fetching orders:", error);
       return rejectWithValue(
         error?.response?.data?.message || "Failed to fetch orders"
       );
