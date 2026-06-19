@@ -4,8 +4,8 @@ import { useDispatch, useSelector } from "react-redux";
 import Button from "@mui/material/Button";
 import { fetchCakes } from "../Redux/Slices/CakeSlice";
 import { fetchBouquets } from "../Redux/Slices/BouquetSlice";
-import CakeCard from "../Components/Cards/CakeCard";
-import BouquetCard from "../Components/Cards/BouquetCard";
+import CakeCard from "../components/Cards/CakeCard";
+import BouquetCard from "../components/Cards/BouquetCard";
 import { ArrowRight, Star, Truck, Heart, ChefHat } from "lucide-react";
 
 
