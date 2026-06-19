@@ -6,7 +6,7 @@ import Breadcrumbs from "@mui/material/Breadcrumbs";
 import Typography from "@mui/material/Typography";
 import { fetchBouquets, fetchBouquetById } from "../../Redux/Slices/BouquetSlice";
 import { bouquetImageUrl, formatInr } from "../../Helpers/formatUtils";
-import OrderModal from "../../Components/OrderModal";
+import OrderModal from "../../components/OrderModal";
 
 export default function BouquetDetails() {
   const [orderModalOpen, setOrderModalOpen] = useState(false);

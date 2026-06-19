@@ -6,7 +6,7 @@ import Breadcrumbs from "@mui/material/Breadcrumbs";
 import Typography from "@mui/material/Typography";
 import { fetchCakes, fetchCakeById } from "../../Redux/Slices/CakeSlice";
 import { cakeImageUrl, formatInr } from "../../Helpers/formatUtils";
-import OrderModal from "../../Components/OrderModal";
+import OrderModal from "../../components/OrderModal";
 
 export default function ProductDetails() {
   const [orderModalOpen, setOrderModalOpen] = useState(false);

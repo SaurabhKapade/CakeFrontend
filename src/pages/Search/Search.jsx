@@ -9,8 +9,8 @@ import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 import { Search as SearchIcon } from "lucide-react";
 import { fetchCakes, searchCake } from "../../Redux/Slices/CakeSlice";
 import { fetchBouquets, searchBouquet } from "../../Redux/Slices/BouquetSlice";
-import CakeCard from "../../Components/Cards/CakeCard";
-import BouquetCard from "../../Components/Cards/BouquetCard";
+import CakeCard from "../../components/Cards/CakeCard";
+import BouquetCard from "../../components/Cards/BouquetCard";
 
 const TYPES = ["all", "cake", "bouquet"];
 
